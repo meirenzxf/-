@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Ⅰ、textSize——对应中间文本文字的大小
+　　Ⅱ、text——对应中间文本
+　　Ⅲ、circleColor——对应内圆的颜色
+　　Ⅳ、arcColor——对应外环的颜色
+　　Ⅴ、textColor——对应文本的颜色
+　　Ⅵ、startAngle——对应外环的起始角度
+　　Ⅶ、sweepAngle——对应外环扫描角度
+    -->
+    <declare-styleable name="MyView">
+
+
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="circleColor" format="color" />
+        <attr name="arcColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="startAngle" format="integer" />
+        <attr name="sweepAngle" format="integer" />
+    </declare-styleable>
+
+</resources>
